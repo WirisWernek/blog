@@ -1,0 +1,10 @@
+main{
+	padding: 40px 24px 40px 24px;
+	gap: 40px;
+}
+
+@media (min-width: 1280px) {
+	app-article {
+	  max-width: 1000px !important;
+	}
+  }
