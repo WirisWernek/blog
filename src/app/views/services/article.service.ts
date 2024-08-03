@@ -17,7 +17,7 @@ export class ArticleService {
   }
 
   private _getArticles() {
-    let list: ArticleModel[] = [];
+    const list: ArticleModel[] = [];
     list.push({
       like: false,
       data: '17 de ago, 2024',
